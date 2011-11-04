@@ -1,0 +1,11 @@
+{
+	"language": [
+		"en",
+		{
+			"title_translate": "EasyLangWidget example",
+			"header_translate": "Welcome to my pretty cool homepage.",
+			"section_translate": "I'm a ...",
+			"footer_translate": "Made by me"
+		}
+	]
+}

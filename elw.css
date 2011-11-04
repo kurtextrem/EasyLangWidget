@@ -1,0 +1,40 @@
+/*
+    Document   : elw.css
+    Created on : 03.11.2011, 11:10:53
+    Author     : kurtextrem <kurtextrem@gmail.com>
+    Description:
+		EasyLangWidget stylesheet.
+*/
+
+.elw_flag {
+	cursor: pointer;
+	display: none;
+}
+
+.elw_selected:before {
+	content: '▼';
+}
+
+.elw_flag > a {
+	text-decoration: none;
+}
+
+.elw_flag > img {
+	margin-right: 2px;
+}
+
+.elw_widget {
+	background: #F2F2F2;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.elw_selected {
+	display: block !important;
+}
+
+.elw_widget:hover > .elw_flag {
+	display: block !important;
+}

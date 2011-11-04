@@ -1,0 +1,11 @@
+{
+	"language": [
+		"de",
+		{
+			"title_translate": "EasyLangWidget Beispiel",
+			"header_translate": "Willkommen auf meiner richtig coolen Website.",
+			"section_translate": "Ich bin ein ...",
+			"footer_translate": "Gemacht von mir"
+		}
+	]
+}

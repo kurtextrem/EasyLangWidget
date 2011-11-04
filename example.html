@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title class="elw_translate title_translate"></title> <!-- Only add "elw_translate" class to all elements you want to have translated and give them an unique class, see more in lang/en.json -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="elw.css">
+		<!-- <link rel="stylesheet" href="elw.min.css"> -->
+	</head>
+	<body style="font-family: 'Droid Sans', sans-serif;">
+		<header class="elw_translate header_translate"></header>
+		<section class="elw_translate section_translate"></section>
+		<footer class="elw_translate footer_translate"></footer>
+		DOM:
+		<div>
+			<section class="elw_widget">
+				<div class="elw_de elw_selected elw_flag">
+					<a href="#lang=de">
+						<img src="flags/de.png">
+						<span>Deutsch</span>
+					</a>
+				</div>
+				<div class="elw_en elw_flag">
+					<a href="#lang=en">
+						<img src="flags/en.png">
+						<span>English</span>
+					</a>
+				</div>
+			</section>
+		</div>
+
+		<!-- You need jQuery to use ELW. -->
+		<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+		<!-- <script src="elw.jquery.min.js"></script> -->
+		<!-- Debugging -->
+		<script src="elw.jquery.js"></script>
+		<script>new ELW();</script>
+	</body>
+</html>
